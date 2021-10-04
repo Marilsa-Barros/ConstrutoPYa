@@ -26,6 +26,7 @@ def dividir_try_except(numero1, numero2):
         return numero1 / numero2
     except TypeError:
         #return 'Não dividirás por zero'
+
         if TypeError == ZeroDivisionError:
             return 'Não dividirás por zero'
         elif TypeError == ArithmeticError:
